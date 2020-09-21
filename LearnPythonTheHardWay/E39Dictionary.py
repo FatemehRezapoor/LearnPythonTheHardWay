@@ -49,3 +49,8 @@ print(123 in mydic)
 for a,b in mydic.items():
     print(a,b)
 
+# Print keys and values
+
+print(mydic.keys())
+print(mydic.values())
+

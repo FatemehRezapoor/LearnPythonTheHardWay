@@ -1,4 +1,5 @@
 # June 5, 2018
+# Update: July 8th , 2020
 # For loop and interation
 # List: container of things that are organized in order
 
@@ -29,3 +30,31 @@ eyehair = [eye, hair]
 for x in eyehair:
     print('x value from 2d list %s'%x)
 
+# Method 5 : ITERABLE: WITH INDEX IN LIST
+
+for i,x in enumerate(eye):
+    print(i,x)
+
+for x in range(0,len(eye)):
+    print(eye[x])
+    x = x+1
+
+# CONTINUE
+
+eye = ['brown', 'blue', 'green']
+
+for color in eye:
+    if color == 'blue':
+        continue
+    print('These are the colors:', color)
+else:
+    print('That is all colors')
+
+# BREAK
+
+for color in eye:
+    if color == 'blue':
+        break
+    print('These are the colors:', color)
+else:
+    print('That is all colors')

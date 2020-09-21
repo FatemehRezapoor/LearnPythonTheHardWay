@@ -1,0 +1,2 @@
+This is the first file
+I want to copy this one to the new fileThis is a new line 5This is a new line 5This is a new line 5

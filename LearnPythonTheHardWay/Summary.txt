@@ -1,0 +1,56 @@
+** Call Module, Functions, Classes, For, While, If
+
+* Module ( Saved as name.py and called in the other page)
+import name
+name.methods()
+name.variables
+
+* Classes
+class.name():
+	def __init__(self, ...)
+	Variables
+	def methods(self):
+Myclass=name()
+name.methods()
+name.variables
+
+* Functions
+def Myfun():
+	....
+myfun(input)
+
+* For i in x or range():
+
+* if X==Y:
+elif:
+else:
+
+* While X<Y:
+else:
+
+* List
+x=[1,2]
+x[0]=1
+
+* Dic
+x={'Case1':112,'Case 2':13}
+x['Case1]
+
+* set
+x={1,2,3,3}
+print(x) => {1,2,3}
+
+* One line code
+
+Thing for thing in list-of-thing if blahbla
+operation + for + expression
+x= num for num in numberlist
+x= num*2 for num in numberlist
+x= num*2 for num in numberlist if num>2 
+
+Ex: for k in y:
+		z.append(k+2)
+	print(z)
+One Liner: z.append(k+2 for k in y)
+
+	

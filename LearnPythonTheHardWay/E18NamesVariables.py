@@ -1,4 +1,5 @@
 # June 1 , 2018
+# Update: July 9, 2020
 # E18,16
 # Learn how to make a function in Python
 
@@ -7,7 +8,6 @@
 def print_two(*args):
     arg1, arg2 = args
     print('This is my argument 1:%r and argumrent 2: %r' % (arg1, arg2))
-
 
 def print_2again(arg1, arg2):
     print('This is my argument 1:%r and argumrent 2: %r' % (arg1, arg2))
@@ -48,6 +48,14 @@ summ = mysum(t1 * 2, t2 * 2)
 def multiply(arg1, arg2):
     multi = mysum(arg1, arg2) * 10
     print('This is your summation and multiplication:%d' % multi)
-
-
 multiply(1, 2)
+
+# Function in a function
+
+def main():
+    kitten()
+
+def kitten():
+    print('Meaow....')
+print(__name__)
+# if __name__ =='__main__':main()

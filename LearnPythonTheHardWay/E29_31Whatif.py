@@ -1,4 +1,5 @@
 # June 5, 2018
+# Update: July 8, 2020
 # E 29 - what if
 
 cat = input('Inter the number of cats:')
@@ -36,6 +37,15 @@ if 0<int(cat)<5:
 else:
     print('A lot of cats')
 
+# Different types of conditional operators:
+# 1. Comparison: equal: == , Not equal: !=, Less than or equal <= , Greater than or equal : >=
+# 2. Logical operators: x and y ( true if both x and y ), x or y ( true if x or y, not x ( invert state)
+# 3. Identity operator: x is y ( true if the same object), x is not y ( true if not the same object)
+# 4. Memebership operator: x in y ( true if x meember of collection y ), x not in y ( true if x not member of collection y.
 
+# Turnary operator. Only used when you want to use both if + else ( turnary = 3 conditions )
 
-
+Hungary=True
+x='feed the bear' if Hungary else 'Do not feed the bear'
+# Means it will set 'feed the bear' string if the condition is met, if not it will set else variable.
+print(x)

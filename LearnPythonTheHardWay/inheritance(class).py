@@ -70,7 +70,7 @@ print(sharky.lastname)
 # Super() function will do this
 
 class domsia(Fish):
-    def __init__(self, Behaviour='Bad Boy'):  # over writes thw whole parents
+    def __init__(self, Behaviour='Bad Boy'):  # over writes the whole parents
         self.Behaviour = Behaviour
         super().__init__(self)  # Re read the whole parents
 
